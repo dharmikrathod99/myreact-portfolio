@@ -36,9 +36,9 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10 flex justify-center items-center  gap-2">
-            <img src={mypro} alt=""  className="border w-12 h-12 rounded-full" />
+            <img src={mypro} alt="" className="border w-12 h-12 rounded-full" />
             <span className="text-glow text-foreground"> dharmikrathod </span>{" "}
-              Portfolio
+            Portfolio
           </span>
         </a>
 
