@@ -1,9 +1,9 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import netfliximg from '../assets/images/netflix-clone.png'
 import jeweryimg from '../assets/images/jewellery.png'
-import mypro from '../assets/images/mypro.jpg'
-import portfolio from '../assets/images/basic-portfolio.png'
-
+import portfolio from '../assets/images/food.png'
+import Shofy from '../assets/images/shofy .png'
+import Esite from '../assets/images/Esiite.png'
 
 const projects = [
   {
@@ -17,13 +17,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Basic Portfolio",
+    title: "Food Hub - Ecommerce foodsite",
     description:
-      "build a basic portfolio site  using HTML,CSS and boostrap",
+      "build a basic Food E-commerce site using React, SwiperSlider, TailwindCSS also use cool effect and Animation for more attractive designe",
     image: portfolio,
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "https://dharmikrathodport99.netlify.app/",
-    githubUrl: "https://github.com/dharmikrathod99/port/tree/main/portfolio_web",
+    tags: ["react", "swiperslider", "TailwindCSS"],
+    demoUrl: "https://food-hub-steel.vercel.app/",
+    githubUrl: "https://github.com/dharmikrathod99/FoodHub",
   },
   {
     id: 3,
@@ -34,6 +34,26 @@ const projects = [
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     demoUrl: "https://6877eb70b0ab0b84be6d546e--remarkable-panda-4f27f5.netlify.app/",
     githubUrl: "https://github.com/dharmikrathod99/jws_wesite/tree/main/jws",
+  },
+  {
+    id: 4,
+    title: "shofy-electronics-ecommerce",
+    description:
+      "Shofy Electronics is a modern, responsive online electronics shopping website built to simulate a real-world e-commerce platform. It allows users to browse products, view details, add items to their cart, and explore categories — just like a professional online store .",
+    image: Shofy,
+    tags: ["react", "Tailwind CSS", "SASS (SCSS)", "Bootstrap", "Swiper.js", "Vite", "Slick Carousel", "Redux Toolkit", "React Redux", "Node.js", "Express.js", "Mongodb"],
+    demoUrl: "https://6877eb70b0ab0b84be6d546e--remarkable-panda-4f27f5.netlify.app/",
+    githubUrl: "https://github.com/dharmikrathod99/shofy-electronics-ecommerce-main",
+  },
+  {
+    id: 5,
+    title: "Genral-E-ecommerce",
+    description:
+      "E-Commerce website with fully daynamic admin pannel.",
+    image: Esite,
+    tags: ["react", "CSS", , "Bootstrap", "Swiper.js", "Vite", "Slick Carousel", "Redux Toolkit", "React Redux", "Node.js", "Express.js", "Mongodb", " Admin Pannel"],
+    demoUrl: "https://e-commerce-with-adminpannel.vercel.app/",
+    githubUrl: "https://github.com/dharmikrathod99/E-commerce-With-Adminpannel",
   },
 ];
 
@@ -105,7 +125,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/dharmikrathod99"
           >
             Check My Github <ArrowRight size={16} />
           </a>
