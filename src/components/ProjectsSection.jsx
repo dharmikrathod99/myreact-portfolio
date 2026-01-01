@@ -42,7 +42,7 @@ const projects = [
       "Shofy Electronics is a modern, responsive online electronics shopping website built to simulate a real-world e-commerce platform. It allows users to browse products, view details, add items to their cart, and explore categories — just like a professional online store .",
     image: Shofy,
     tags: ["react", "Tailwind CSS", "SASS (SCSS)", "Bootstrap", "Swiper.js", "Vite", "Slick Carousel", "Redux Toolkit", "React Redux", "Node.js", "Express.js", "Mongodb"],
-    demoUrl: "https://6877eb70b0ab0b84be6d546e--remarkable-panda-4f27f5.netlify.app/",
+    demoUrl: "https://shofy-electronics-ecommerce-main-ko.vercel.app/",
     githubUrl: "https://github.com/dharmikrathod99/shofy-electronics-ecommerce-main",
   },
   {
